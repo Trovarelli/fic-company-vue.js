@@ -55,7 +55,7 @@ export default {
   },
   methods: {
   scrollToBottom() {
-    window.scrollTo(0, 1300);
+    window.scrollTo(0, 1310);
     },
     scrollToBottom2() {
     window.scrollTo(0, 1900);
