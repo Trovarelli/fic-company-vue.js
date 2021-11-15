@@ -1,5 +1,5 @@
 <template>
-   <v-footer color='blue-grey darken-4' outlined rounded="t-xl">
+   <v-footer color='rgb(21, 24, 39)' rounded="t-xl">
 			<img src="img/logow.png" id="img-footer">
 
 			<div id="mapaSite">
@@ -21,16 +21,9 @@
 					<router-link to="#" class="site"><h3>Termos de Privacidade</h3></router-link>
 			</div>
 
-			<v-card flat
-      tile
-      class="indigo blue-grey darken-4 white--text text-center">
+			<v-card flat tile color="rgb(21, 24, 39)" class="white--text text-center">
 				<p>Siga nossas redes sociais</p>
-					<v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4 white--text"
-          icon
-        >
+					<v-btn v-for="icon in icons" :key="icon" class="mx-4 white--text" icon>
           <v-icon size="24px">
             {{ icon }}
           </v-icon>
