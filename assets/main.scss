@@ -140,6 +140,15 @@ $btnGeral: rgb(236, 236, 236);
   align-items: center;
 }
 
+.servicos2 {
+  height: 20vh !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .verMais {
   text-decoration: none !important;
   font-size: medium !important;

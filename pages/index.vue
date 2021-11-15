@@ -26,8 +26,8 @@
 			<v-spacer></v-spacer>
       <a class="verMais">Ver mais serviços</a>
 			<a class="btnScroll" @click="scrollToBottom">Sobre nós</a>
-    </v-container>
-		<v-container>
+      </v-container>
+		  <v-container>
 			<div class="containerSobre">
 				<div class="msgSobre">
 					<h1 id="sobreNos"> Sobre Nós: </h1>
@@ -38,6 +38,10 @@
 				</div>
 				<img src="~/static/img/sobre.svg" height="350" width="350" alt="Imagem mostra desenho de funcionarios montando as filosofias da empresa.">
 			</div>
+      <div class="servicos2">
+        <a class="verMais">Ver mais serviços</a>
+        <a class="btnScroll" @click="scrollToBottom2">Sobre nós</a>
+      </div>
 		</v-container>
     <ContatoForm />
     </div>
@@ -52,6 +56,9 @@ export default {
   methods: {
   scrollToBottom() {
     window.scrollTo(0, 1200);
+    },
+    scrollToBottom2() {
+    window.scrollTo(0, 1860);
     }
   }
 }

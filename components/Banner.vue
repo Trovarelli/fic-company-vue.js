@@ -6,7 +6,7 @@
                 Nós prometemos a <br>
                 <b>melhor solução</b> <br>
                 para seu negócio! <br>
-                <a href="#servicos" class="btnScroll">Nossos serviços</a>
+                <a class="btnScroll"  @click="scrollToBottom">Nossos serviços</a>
             </v-col>
             <v-col class="banner-animation">
               <img src="~/static/img/balao.png" id="balao">
@@ -23,10 +23,14 @@
 
 <script>
 export default {
-    name: 'Banner',
-    setup() {
+  setup() {
 
-    },
+  },
+  methods: {
+  scrollToBottom() {
+    window.scrollTo(0, 600);
+    }
+  }
 }
 </script>
 
