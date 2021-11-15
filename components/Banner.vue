@@ -3,7 +3,7 @@
         <v-container d-flex fluid class="banner-grid">
           <v-row >
             <v-col id="anuncio" dense>
-                Nós prometemos a <br>
+                Nós prometemos a banana<br>
                 <b>melhor solução</b> <br>
                 para seu negócio! <br>
                 <a class="btnScroll"  @click="scrollToBottom">Nossos serviços</a>
