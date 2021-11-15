@@ -1,5 +1,5 @@
 <template>
-   <v-footer color='blue-grey darken-4' outlined rounded="lg">
+   <v-footer color='blue-grey darken-4' outlined rounded="t-xl">
 			<img src="img/logow.png" id="img-footer">
 
 			<div id="mapaSite">

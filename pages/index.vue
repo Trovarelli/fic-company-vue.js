@@ -55,10 +55,10 @@ export default {
   },
   methods: {
   scrollToBottom() {
-    window.scrollTo(0, 1200);
+    window.scrollTo(0, 1300);
     },
     scrollToBottom2() {
-    window.scrollTo(0, 1860);
+    window.scrollTo(0, 1900);
     }
   }
 }
