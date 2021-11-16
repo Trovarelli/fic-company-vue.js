@@ -58,7 +58,7 @@ export default {
     window.scrollTo(0, 1310);
     },
     scrollToBottom2() {
-    window.scrollTo(0, 1900);
+    window.scrollTo(0, 1980);
     }
   }
 }

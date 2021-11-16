@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar class="px-8 elevation-5 rounded-b-xl" hide-on-scroll flat color="white" sticky max-height="10vh">
+  <v-app-bar class="px-8 elevation-5 rounded-b-xl sticky" hide-on-scroll flat color="white"  max-height="10vh">
       <v-toolbar-title>
         <img src="~/static/img/logo.png" width="100" alt="j-team">
       </v-toolbar-title>
