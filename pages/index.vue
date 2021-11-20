@@ -1,5 +1,5 @@
 <template>
-<div id="div-main">
+<div>
   <v-spacer></v-spacer>
   <Banner />
   <div>

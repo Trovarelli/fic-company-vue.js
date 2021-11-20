@@ -1,7 +1,9 @@
 <template>
-  <v-app dark>
+  <v-app id="div-main" dark>
     <Nav />
-    <Nuxt />
+    <div class="mt-12">
+      <Nuxt />
+    </div>
    <Footer />
   </v-app>
 
